@@ -1,0 +1,454 @@
+.body {
+    background-color: rgba(229, 230, 230, 0.76);
+}
+
+.carusel {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+}
+
+.carusel img {
+    border-radius: 20px;
+    height: 90vh;
+    filter: blur(1.5px);
+}
+
+.carusel_h1 h1 {
+    font-weight: 700;
+    font-size: 80px;
+    text-transform: full-width;
+}
+
+.carusel_p p {
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: full-width;
+}
+
+.carusel_btn button {
+    padding: 10px 50px;
+    border-radius: 10px;
+    background: none;
+    color: aliceblue;
+    font-weight: 600;
+    border-color: aliceblue;
+    transition: 0.6s;
+}
+
+.carusel_btn button:hover {
+    background-color: rgb(70, 15, 121);
+    transition: 0.6s;
+}
+
+.elem {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.elem_1 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 40px 30px;
+
+    width: 65rem;
+}
+
+.elem_1 img {
+    width: 130px;
+
+}
+
+.modal_elem {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.modal_elem:hover h3 {
+    color: rgba(13, 186, 243, 0.904);
+    transition: 0.5s;
+}
+
+.modal_elem h3 {
+    transition: 0.5s;
+}
+
+.modal_elem p {
+    font-size: 20px;
+}
+
+.kv {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-evenly;
+
+    border-radius: 15px;
+}
+
+.kv_section {
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+}
+
+.text_text h1 {
+    padding: 50px 20px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-weight: 500;
+    font-size: 80px;
+    color: rgba(13, 186, 243, 0.904);
+}
+
+.kv_1 {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+    border-radius: 15px;
+}
+
+
+.kv_1 img {
+    transition: 0.9s;
+    display: block;
+    width: 68rem;
+    filter: brightness(70%);
+}
+
+.kv_1:hover img {
+    transform: scale(1.1);
+    border-radius: 25px;
+}
+
+.kv_1_0 {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+    border-radius: 15px;
+    width: 91%;
+
+}
+
+.body_kv {
+    display: flex;
+    justify-content: center;
+}
+
+.kv_1_0 img {
+    transition: 0.9s;
+    display: block;
+    width: 100%;
+    height: 25rem;
+    filter: brightness(70%);
+}
+
+.kv_1_0:hover img {
+    transform: scale(1.1);
+    border-radius: 25px;
+}
+
+.kv_1_0:hover button {
+    width: 12rem;
+    height: 5rem;
+    font-size: 25px;
+    font-weight: 500;
+    transition: 0.5s;
+
+
+}
+
+.iz_h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.kv_text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+}
+
+.kv_text button {
+    background: none;
+    align-items: center;
+    border-radius: 15px;
+    width: 5rem;
+    height: 5rem;
+    font-size: 0px;
+    font-weight: 500;
+    transition: 0.5s;
+    border: 3px solid #fff;
+    color: rgba(255, 255, 255, 0.904);
+}
+
+.kv_text svg {
+    width: 35px;
+    height: 35px;
+    padding-left: 5px;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.kv_1:hover button {
+    width: 12rem;
+    height: 5rem;
+    font-size: 25px;
+    font-weight: 500;
+    transition: 0.5s;
+
+
+}
+
+.kv_text_2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+}
+
+.kv_text_h1 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    color: #fff;
+}
+
+.kv_span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.kv_span_1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.kv_span div {
+    background-color: rgb(36, 165, 165);
+    width: 30px;
+    height: 1vh;
+    border-radius: 50px;
+}
+
+
+
+
+.kv_1_span {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.kv_span_1_1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.kv_span_1_1 div {
+    background-color: rgb(183, 29, 189);
+    width: 30px;
+    height: 1.3vh;
+    border-radius: 50px;
+}
+
+
+.kv_span_1_2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.kv_span_1_2 div {
+    background-color: rgb(207, 172, 17);
+    width: 30px;
+    height: 1.3vh;
+    border-radius: 50px;
+}
+
+
+
+.kv_span_1_3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.kv_span_1_3 div {
+    background-color: rgb(83, 165, 36);
+    width: 30px;
+    height: 1.3vh;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.kv_span_1 div {
+    width: 30px;
+    height: 1vh;
+    border-radius: 50px;
+}
+
+.kv_text_h1 h2 {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.kv_text_h1 h5 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.kv_btn_color {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.kv_btn_color button {
+    padding: 20px 50px;
+    border-radius: 15px;
+    background: none;
+    font-weight: 500;
+    color: #36187d;
+    border-color: rgb(3, 3, 3);
+}
+
+.kv_btn_hover:hover {
+    background-color: #36187d;
+    color: white;
+    transition: 0.7s;
+    border-color: #fff;
+}
+
+.range_section {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.div_auto {
+    width: 750px;
+    background-color: white;
+    border-radius: 15px;
+
+
+}
+
+.bac_auto {
+    background-image: url('../img/auto.jpg');
+    height:45vh;
+    width: 100%;
+    background-size: cover;
+    border-radius: 15px;
+    background-color: white;
+
+}
+
+.bac_text {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    padding-bottom: 50px;
+}
+
+.bac_text button {
+    border-radius: 15px;
+    padding: 30px 50px;
+    position: relative;
+
+
+
+}
+
+
+
+
+.bac_text h5 {
+    width: 350px;
+}
+.btn_bac_text{
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 150px;
+    height: 100px;
+    border: 2px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.btn_text{
+    background: none;
+    
+}
+.div_auto button{
+    background: none;
+    transition: 0.7s;
+}
+.bac_text:hover button{
+    background-color: #36187d;
+    color: white;
+    font-weight: 600;
+    transition: 0.7s;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.don_bac{
+    background-image: url('../');
+}
